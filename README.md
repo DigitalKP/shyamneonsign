@@ -1,7 +1,6 @@
-# Shyam Neon Sign Kanpur 💡✨
+# Number 1 Neon Sign Maker in Kanpur | Shyam Neon Sign 💡✨
 
-> **Custom LED Neon Signs, Neon Name Signs & Business Signboards in Kanpur**
-> Designed for High Conversion, Local SEO & Instant WhatsApp Lead Generation.
+> **Looking for the No. 1 neon sign maker in Kanpur? Shyam Neon Sign makes custom LED neon signs at affordable cost. Design live, get a quote on WhatsApp.**
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/website-live-success.svg)](https://digitalkp.github.io/shyamneonsign/)
@@ -10,7 +9,7 @@
 
 ## 🌟 Overview
 
-**Shyam Neon Sign** is a specialized local business landing page and interactive product customizer built for a neon sign manufacturer based in **109/385, R.K. Nagar, Kanpur**. 
+**Shyam Neon Sign** is Kanpur's top choice and manufacturer of custom LED neon signs based in **109/385, R.K. Nagar, Kanpur**, with 10+ years in business and 1000+ happy customers.
 
 The web app allows potential clients to preview custom neon text live in their browser (with choices of font, 9 vibrant neon colors, steady/flicker/outline styles, and daylight/wall/dark room backgrounds), and immediately forwards the completed design configuration to WhatsApp to convert visitors into paying leads.
 
