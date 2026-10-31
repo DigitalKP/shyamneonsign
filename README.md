@@ -71,10 +71,16 @@ The web app allows potential clients to preview custom neon text live in their b
 
 ```text
 shyamneonsign/
-├── index.html       # Single-page landing app with live designer & lead generation
-├── robots.txt       # Search engine crawler instructions
-├── sitemap.xml      # XML sitemap for Google Search Console
-└── README.md        # Comprehensive documentation
+├── index.html                           # Main landing page with live designer & lead generation
+├── assets/
+│   └── logo.jpg                         # Official brand logo
+├── service/
+│   ├── index.html                       # Service hub / categories page
+│   └── diwali-neon-sign-kanpur/
+│       └── index.html                   # Diwali Neon Sign in Kanpur specialized landing page
+├── robots.txt                           # Search engine crawler instructions
+├── sitemap.xml                          # XML sitemap with all landing pages
+└── README.md                            # Comprehensive documentation
 ```
 
 ---
