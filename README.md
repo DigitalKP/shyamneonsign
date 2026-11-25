@@ -49,9 +49,10 @@ The web app allows potential clients to preview custom neon text live in their b
 
 - **Business Name**: Shyam Neon Sign
 - **Address**: 109/385, R.K. Nagar, Kanpur, Uttar Pradesh, India
+- **Hours**: Open 24 Hours (Monday – Sunday)
 - **Phone / WhatsApp**: [+91 9305561967](https://wa.me/919305561967)
 - **Email**: [handalokesh175@gmail.com](mailto:handalokesh175@gmail.com)
-- **Google Maps**: [Location Pin](https://maps.app.goo.gl/kLWFQxubr5roYokx8)
+- **Google Maps**: [Location Pin](https://maps.app.goo.gl/gFaRuP2RJfjSUij39)
 - **Instagram**: [@shyam_neon_sign](https://www.instagram.com/shyam_neon_sign/)
 - **Facebook**: [Shyam Neon Sign](https://www.facebook.com/p/Shyam-Neon-Sign-61558173132109/)
 
@@ -71,16 +72,27 @@ The web app allows potential clients to preview custom neon text live in their b
 
 ```text
 shyamneonsign/
-├── index.html                           # Main landing page with live designer & lead generation
+├── index.html                                    # Main landing page with live designer & lead generation
+├── 404.html                                      # Branded 404 fallback page
 ├── assets/
-│   └── logo.jpg                         # Official brand logo
+│   ├── logo.jpg                                  # Official brand social preview image (1024x682)
+│   ├── logo-88.webp                              # Optimized 88x88 header logo (3.2 KB)
+│   ├── favicon-32.png                            # Browser favicon
+│   └── apple-touch-icon.png                      # iOS touch icon
 ├── service/
-│   ├── index.html                       # Service hub / categories page
+│   ├── index.html                                # Services hub & comparison page
+│   ├── custom-neon-signs-kanpur/
+│   │   └── index.html                            # Custom Neon Signs in Kanpur landing page + designer
+│   ├── commercial-neon-signs-kanpur/
+│   │   └── index.html                            # Business & Commercial Neon Signs in Kanpur + B2B builder
+│   ├── rgb-neon-signs-kanpur/
+│   │   └── index.html                            # RGB & Smart Neon Signs in Kanpur + live RGB simulator
 │   └── diwali-neon-sign-kanpur/
-│       └── index.html                   # Diwali Neon Sign in Kanpur specialized landing page
-├── robots.txt                           # Search engine crawler instructions
-├── sitemap.xml                          # XML sitemap with all landing pages
-└── README.md                            # Comprehensive documentation
+│       └── index.html                            # Diwali Neon Signs in Kanpur landing page
+├── robots.txt                                    # Search engine crawler instructions
+├── sitemap.xml                                   # XML sitemap with all 6 landing pages
+├── llms.txt                                      # AI discovery summary file
+└── README.md                                     # Project documentation
 ```
 
 ---
