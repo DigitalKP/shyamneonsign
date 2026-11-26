@@ -75,7 +75,6 @@
           "closes": "23:59"
         }
       ],
-      "hasMap": "https://maps.app.goo.gl/gFaRuP2RJfjSUij39",
       "sameAs": [
         "https://www.instagram.com/shyam_neon_sign/",
         "https://www.facebook.com/p/Shyam-Neon-Sign-61558173132109/"
@@ -221,16 +220,38 @@ nav a:hover{color:#fff}
 .btn.wa:hover{box-shadow:0 0 25px rgba(37,211,102,.65)}
 .btn.o{background:none;border:1px solid var(--ln);box-shadow:none;color:var(--tx)}
 .btn.o:hover{border-color:var(--pk);color:#fff}
-.promo-bar{background:linear-gradient(90deg,#0f3322,#7a1120,#0f3322);text-align:center;padding:9px 16px;font-size:.88rem;color:#fff4e6;border-bottom:1px solid rgba(255,183,0,.35)}
-.promo-bar strong{color:#ffe66d}
+.btn.gold{background:linear-gradient(135deg,#ffd447,#ff9f1c);color:#1f0e00;box-shadow:0 0 22px rgba(255,183,0,.55);font-weight:700}
+.btn.gold:hover{box-shadow:0 0 30px rgba(255,183,0,.85)}
+.promo-bar{background:linear-gradient(90deg,#062b1a,#0d4a2d,#062b1a);text-align:center;padding:8px 16px;font-size:.86rem;color:#fff6df;border-bottom:1px solid rgba(255,196,54,.4)}
+.promo-bar strong{color:#ffd84d}
 .promo-bar a{font-weight:700;color:#fff;text-decoration:underline}
-.hero{padding:48px 20px 54px;text-align:center;background:radial-gradient(ellipse at 50% 0,#2a0f3d 0,var(--bg) 68%)}
-.hero-pill{display:inline-block;background:rgba(255,183,0,.12);border:1px solid rgba(255,183,0,.45);color:#ffd97d;font-size:.82rem;font-weight:600;padding:5px 14px;border-radius:999px;margin-bottom:14px}
-.hero h1{font-size:clamp(1.95rem,5vw,3.15rem);max-width:860px;margin:0 auto .45em}
-.hero p{max-width:690px;margin:0 auto 22px;font-size:1.02rem}
-.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-.cta-micro{font-size:.82rem;color:var(--mu);margin-top:12px}
-.tr{display:flex;gap:10px 24px;justify-content:center;flex-wrap:wrap;margin-top:22px;color:var(--mu);font-size:.88rem}
+.hero{padding:28px 20px 30px;background:radial-gradient(ellipse at 50% 0,#0b3b24 0,#150b24 55%,var(--bg) 88%)}
+.fest-banner{position:relative;overflow:hidden;border-radius:22px;padding:30px 28px;background:radial-gradient(circle at 18% 20%,rgba(255,196,54,.16),transparent 42%),radial-gradient(circle at 85% 75%,rgba(37,211,102,.14),transparent 45%),linear-gradient(135deg,#042517 0%,#083d25 52%,#031b11 100%);border:1.5px solid rgba(255,196,54,.55);box-shadow:0 16px 48px rgba(0,0,0,.55),0 0 36px rgba(16,120,70,.24);display:grid;grid-template-columns:1.15fr .95fr;gap:24px;align-items:center;text-align:left}
+.fest-banner::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,#ffb700,#25d366,#ff2d95,#ffb700)}
+.hero-pill{display:inline-flex;align-items:center;gap:6px;background:rgba(255,196,54,.15);border:1px solid rgba(255,196,54,.65);color:#ffe47a;font-size:.78rem;font-weight:700;padding:5px 13px;border-radius:999px;margin-bottom:12px;letter-spacing:.3px;text-transform:uppercase}
+.fest-kicker{font-family:Orbitron,sans-serif;font-size:.88rem;letter-spacing:1.4px;color:#ffd84d;text-shadow:0 0 12px rgba(255,196,54,.6);margin:0 0 6px;text-transform:uppercase}
+.hero h1{font-size:clamp(1.75rem,3.6vw,2.65rem);margin:0 0 10px;color:#fff;line-height:1.15}
+.hero-desc{color:#d8e7de;font-size:.96rem;margin:0 0 18px;max-width:560px}
+.cta{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-start}
+.cta-micro{font-size:.79rem;color:#b8d4c5;margin:12px 0 0}
+.offer-stack{display:flex;flex-direction:column;gap:12px}
+.offer-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.offer-box{background:rgba(3,20,13,.74);border:1.5px solid rgba(255,196,54,.6);border-radius:14px;padding:14px 12px;text-align:center;box-shadow:inset 0 0 20px rgba(255,196,54,.08)}
+.offer-tag{display:inline-block;background:#ffd84d;color:#1a1000;font-size:.68rem;font-weight:700;padding:2px 8px;border-radius:999px;text-transform:uppercase;margin-bottom:4px}
+.offer-big{font-family:Orbitron,sans-serif;font-size:clamp(1.35rem,2.6vw,1.9rem);font-weight:700;color:#ffd84d;text-shadow:0 0 16px rgba(255,196,54,.55);line-height:1.1}
+.offer-sub{font-size:.76rem;color:#d6efe1;margin-top:4px}
+.neon-trio{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.neon-tile{background:repeating-linear-gradient(90deg,rgba(255,255,255,.04) 0 2px,transparent 2px 14px),linear-gradient(180deg,#2d1d17,#160d0a);border:1.5px solid rgba(255,255,255,.18);border-radius:12px;padding:14px 6px;min-height:84px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;cursor:pointer;transition:transform .2s,border-color .2s;color:#fff;text-decoration:none}
+.neon-tile:hover{transform:translateY(-3px);border-color:#ffd84d}
+.neon-tile small{display:block;font-size:.66rem;color:#d0d0d0;margin-top:5px;font-family:Poppins,sans-serif;text-shadow:none}
+/* Story-style quick category bar */
+.story-bar{display:flex;gap:16px;justify-content:center;overflow-x:auto;padding:22px 6px 4px;scrollbar-width:none}
+.story-bar::-webkit-scrollbar{display:none}
+.story-item{display:flex;flex-direction:column;align-items:center;gap:7px;text-decoration:none;flex:0 0 auto;width:78px;cursor:pointer;background:none;border:0;color:var(--tx);font:inherit;padding:0}
+.story-ring{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 45%,#1b122b,#07050c);border:2px solid var(--ring,#ff2d95);box-shadow:0 0 16px rgba(255,45,149,.32);font-size:1.35rem;transition:transform .2s,box-shadow .2s}
+.story-item:hover .story-ring{transform:scale(1.08);box-shadow:0 0 22px var(--ring,#ff2d95)}
+.story-item span{font-size:.76rem;color:#e5ddf5;font-weight:600;white-space:nowrap}
+.tr{display:flex;gap:10px 18px;justify-content:center;flex-wrap:wrap;margin-top:16px;color:var(--mu);font-size:.84rem}
 .tr span{background:rgba(255,255,255,.04);border:1px solid var(--ln);padding:5px 12px;border-radius:999px}
 .alt{background:var(--bg2)}
 /* customizer */
@@ -305,7 +326,11 @@ footer a:hover{color:var(--gold)}
 .nav-call{display:none}
 nav ul{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;background:var(--bg);padding:16px 20px;border-bottom:1px solid var(--ln);gap:14px;align-items:flex-start}
 nav ul.open{display:flex}
-.cz,.ct{grid-template-columns:1fr}
+.fest-banner,.cz,.ct{grid-template-columns:1fr}
+.fest-banner{padding:22px 16px;text-align:center}
+.cta{justify-content:center}
+.hero-desc{margin-left:auto;margin-right:auto}
+.story-bar{justify-content:flex-start}
 .stage{position:static;min-height:240px}
 section{padding:48px 16px}
 .fab{display:none}
@@ -321,7 +346,7 @@ footer{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 </style>
 </head>
 <body>
-<div class="promo-bar">🎄 <strong>Christmas &amp; New Year Neon Signs in Kanpur:</strong> Custom Merry Christmas, Happy New Year 2027 &amp; Party Wall Neon — <a href="#customizer">Design Live</a> or <a href="service/custom-neon-signs-kanpur/">Explore Custom Neon Signs</a></div>
+<div class="promo-bar">🎄 <strong>KANPUR FESTIVE GLOW SALE 2026:</strong> First 100 Customers Get <strong>Up to 50% OFF</strong> + Free Mockup &amp; Mount Kit! <a href="https://wa.me/919305561967?text=Hello%20Shyam%20Neon%20Sign%2C%20I%20want%20to%20claim%20the%20First%20100%20Customers%20Up%20to%2050%25%20OFF%20Festive%20Offer%20in%20Kanpur!" target="_blank" rel="noopener">Claim on WhatsApp →</a></div>
 <header>
 <div class="nav">
 <a class="logo" href="#top" aria-label="Shyam Neon Sign home">
@@ -347,15 +372,62 @@ footer{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 <main id="top">
 <section class="hero">
 <div class="w">
-<span class="hero-pill">📍 R.K. Nagar, Kanpur · Direct Workshop Pricing</span>
+<div class="fest-banner">
+<div>
+<span class="hero-pill">🎁 First 100 Kanpur Customers · Open 24 Hours</span>
+<p class="fest-kicker">🎄 Kanpur Festive Glow Sale 2026</p>
 <h1>Custom LED Neon Sign Maker in Kanpur — Shyam Neon Sign</h1>
-<p class="mu">Looking for a reliable neon sign maker in Kanpur? Shyam Neon Sign crafts custom LED neon signs, commercial shop boards, and smart color-changing RGB neon lights at our R.K. Nagar workshop. Type your text, pick size &amp; colour live below, and get a direct quote on WhatsApp.</p>
+<p class="hero-desc">Handcrafted LED neon signs, commercial shop boards &amp; smart RGB neon direct from our R.K. Nagar workshop. Design live in seconds and lock your festive factory discount before the first 100 slots fill!</p>
 <div class="cta">
-<a class="btn" href="#customizer">Design Your Neon Sign</a>
-<a class="btn wa" href="https://wa.me/919305561967?text=Hello%20Shyam%20Neon%20Sign%2C%20I%20want%20a%20custom%20LED%20neon%20sign%20in%20Kanpur." target="_blank" rel="noopener">💬 WhatsApp Quote</a>
+<a class="btn gold" href="https://wa.me/919305561967?text=Hello%20Shyam%20Neon%20Sign%2C%20I%20want%20to%20claim%20the%20First%20100%20Customers%20Up%20to%2050%25%20OFF%20offer%20for%20a%20custom%20neon%20sign%20in%20Kanpur!" target="_blank" rel="noopener">💬 Claim Up to 50% OFF on WhatsApp</a>
+<a class="btn" href="#customizer">✨ Design Live</a>
 <a class="btn o" href="tel:+919305561967">📞 Call 9305561967</a>
 </div>
-<p class="cta-micro">Open 24 Hours (Mon–Sun) · Fast WhatsApp replies · Free size &amp; price confirmation · Pickup in R.K. Nagar or delivery across Kanpur</p>
+<p class="cta-micro">Open 24 Hours (Mon–Sun) · Fast WhatsApp replies · Free size &amp; price quote · Pickup in R.K. Nagar or delivery across Kanpur</p>
+</div>
+
+<div class="offer-stack">
+<div class="offer-pair">
+<div class="offer-box">
+<span class="offer-tag">First 100 Orders</span>
+<div class="offer-big">UP TO 50% OFF</div>
+<div class="offer-sub">Direct Kanpur Workshop Price</div>
+</div>
+<div class="offer-box">
+<span class="offer-tag">Free Bonus</span>
+<div class="offer-big">FREE MOCKUP</div>
+<div class="offer-sub">+ 12V Adapter &amp; SS Mount Kit</div>
+</div>
+</div>
+<div class="neon-trio">
+<button type="button" class="neon-tile click-card" data-t="We Are OPEN" data-f="Pacifico" data-c="#25d366" data-cn="Lime green">
+<span style="font-family:Pacifico,cursive;font-size:.98rem;color:#fff;text-shadow:0 0 4px #fff,0 0 10px #25d366,0 0 22px #25d366">We Are OPEN</span>
+<small>Shop Board</small>
+</button>
+<button type="button" class="neon-tile click-card" data-t="Merry Christmas" data-f="Pacifico" data-c="#ff2b3a" data-cn="Red">
+<span style="font-family:Pacifico,cursive;font-size:.92rem;color:#fff;text-shadow:0 0 4px #fff,0 0 10px #ff2b3a,0 0 22px #ff2b3a">Merry Christmas</span>
+<small>Festive Glow</small>
+</button>
+<button type="button" class="neon-tile click-card" data-t="Your Name" data-f="Sacramento" data-c="#ff2d95" data-cn="Hot pink">
+<span style="font-family:Sacramento,cursive;font-size:1.3rem;color:#fff;text-shadow:0 0 4px #fff,0 0 10px #ff2d95,0 0 22px #ff2d95">Your Name</span>
+<small>Custom Gift</small>
+</button>
+</div>
+</div>
+</div>
+
+<nav class="story-bar" aria-label="Quick Neon Categories">
+<a class="story-item" href="service/"><div class="story-ring" style="--ring:#ffd84d">✨</div><span>All Services</span></a>
+<a class="story-item" href="service/custom-neon-signs-kanpur/"><div class="story-ring" style="--ring:#ff2d95">💖</div><span>Custom Name</span></a>
+<a class="story-item" href="service/commercial-neon-signs-kanpur/"><div class="story-ring" style="--ring:#2d9bff">🏪</div><span>Shop Board</span></a>
+<button type="button" class="story-item click-card" data-t="Merry Christmas" data-f="Pacifico" data-c="#ff2b3a" data-cn="Red"><div class="story-ring" style="--ring:#ff2b3a">🎄</div><span>Christmas</span></button>
+<a class="story-item" href="service/rgb-neon-signs-kanpur/"><div class="story-ring" style="--ring:#a855f7">🎮</div><span>RGB Gaming</span></a>
+<button type="button" class="story-item click-card" data-t="श्री श्याम" data-f="Pacifico" data-c="#ffe629" data-cn="Yellow"><div class="story-ring" style="--ring:#ffe629">🕉️</div><span>Mandir</span></button>
+<button type="button" class="story-item click-card" data-t="Coffee &amp; Chill" data-f="Pacifico" data-c="#ff8a1f" data-cn="Orange"><div class="story-ring" style="--ring:#ff8a1f">☕</div><span>Cafe</span></button>
+<button type="button" class="story-item click-card" data-t="HUSTLE" data-f="Bebas Neue" data-c="#7ff3ff" data-cn="Ice blue"><div class="story-ring" style="--ring:#7ff3ff">💪</div><span>Gym</span></button>
+<a class="story-item" href="service/diwali-neon-sign-kanpur/"><div class="story-ring" style="--ring:#ffb700">🪔</div><span>Diwali</span></a>
+</nav>
+
 <div class="tr">
 <span>Custom Name &amp; Wedding Signs</span>
 <span>Commercial Shop &amp; Office Boards</span>
@@ -688,16 +760,16 @@ footer{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 </iframe>
 </div>
 <div class="row" style="margin-top:16px;justify-content:center;">
-<a class="btn" href="https://maps.app.goo.gl/gFaRuP2RJfjSUij39" target="_blank" rel="noopener">📍 Open Google Business Profile</a>
-<a class="btn wa" href="https://wa.me/919305561967?text=Hello%20Shyam%20Neon%20Sign%2C%20please%20share%20your%20exact%20R.K.%20Nagar%20workshop%20location." target="_blank" rel="noopener">💬 Ask Location on WhatsApp</a>
-<a class="btn o" href="tel:+919305561967">📞 Call 9305561967</a>
+<a class="btn gold" href="https://wa.me/919305561967?text=Hello%20Shyam%20Neon%20Sign%2C%20I%20want%20to%20claim%20the%20First%20100%20Customers%20Up%20to%2050%25%20OFF%20offer%20in%20Kanpur!" target="_blank" rel="noopener">🎁 Claim Up to 50% OFF on WhatsApp</a>
+<a class="btn wa" href="https://wa.me/919305561967?text=Hello%20Shyam%20Neon%20Sign%2C%20please%20share%20your%20exact%20R.K.%20Nagar%20workshop%20location." target="_blank" rel="noopener">📍 Ask Location on WhatsApp</a>
+<a class="btn o" href="tel:+919305561967">📞 Call 9305561967 (24×7)</a>
 </div>
 </div>
 </section>
 </main>
 
 <footer>
-<p><strong>Shyam Neon Sign</strong> · Custom LED Neon Sign Maker in Kanpur<br>109/385, R.K. Nagar, Kanpur, Uttar Pradesh</p>
+<p><strong>Shyam Neon Sign</strong> · Custom LED Neon Sign Maker in Kanpur<br>109/385, R.K. Nagar, Kanpur, Uttar Pradesh · Open 24 Hours (Mon–Sun)</p>
 <p><a href="tel:+919305561967">+91 9305561967</a> · <a href="mailto:handalokesh175@gmail.com">handalokesh175@gmail.com</a></p>
 <p style="margin:12px 0;">
 <a href="service/">All Services</a> ·
@@ -706,7 +778,7 @@ footer{padding-bottom:calc(82px + env(safe-area-inset-bottom,0px))}
 <a href="service/rgb-neon-signs-kanpur/">RGB Smart Neon</a> ·
 <a href="service/diwali-neon-sign-kanpur/">Diwali Signs</a>
 </p>
-<p><a href="https://www.instagram.com/shyam_neon_sign/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/p/Shyam-Neon-Sign-61558173132109/" target="_blank" rel="noopener">Facebook</a> · <a href="https://maps.app.goo.gl/gFaRuP2RJfjSUij39" target="_blank" rel="noopener">Google Maps</a></p>
+<p><a href="https://www.instagram.com/shyam_neon_sign/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/p/Shyam-Neon-Sign-61558173132109/" target="_blank" rel="noopener">Facebook</a> · <a href="#map">Workshop Map</a></p>
 <p>© <span id="yr">2026</span> Shyam Neon Sign · Last updated Nov 2026</p>
 </footer>
 

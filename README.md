@@ -52,7 +52,6 @@ The web app allows potential clients to preview custom neon text live in their b
 - **Hours**: Open 24 Hours (Monday – Sunday)
 - **Phone / WhatsApp**: [+91 9305561967](https://wa.me/919305561967)
 - **Email**: [handalokesh175@gmail.com](mailto:handalokesh175@gmail.com)
-- **Google Maps**: [Location Pin](https://maps.app.goo.gl/gFaRuP2RJfjSUij39)
 - **Instagram**: [@shyam_neon_sign](https://www.instagram.com/shyam_neon_sign/)
 - **Facebook**: [Shyam Neon Sign](https://www.facebook.com/p/Shyam-Neon-Sign-61558173132109/)
 
