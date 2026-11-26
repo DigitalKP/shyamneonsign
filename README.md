@@ -3,7 +3,7 @@
 > **Looking for the No. 1 neon sign maker in Kanpur? Shyam Neon Sign makes custom LED neon signs at affordable cost. Design live, get a quote on WhatsApp.**
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Website](https://img.shields.io/badge/website-live-success.svg)](https://digitalkp.github.io/shyamneonsign/)
+[![Website](https://img.shields.io/badge/website-live-success.svg)](https://buyneonsign.in/)
 
 ---
 
